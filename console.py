@@ -32,13 +32,22 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """Command processor"""
+    """Defines the HolbertonBnB command interpreter.
+
+    Attributes:
+        prompt (str): The command prompt.
+    """
 
     prompt = "(hbnb) "
-    l_classes = ['BaseModel', 'User', 'Amenity',
-                 'Place', 'City', 'State', 'Review']
-
-    l_c = ['create', 'show', 'update', 'all', 'destroy', 'count']
+    __classes = {
+        "BaseModel",
+        "User",
+        "State",
+        "City",
+        "Place",
+        "Amenity",
+        "Review"
+    }
 
     def emptyline(self):
         """Do nothing upon receiving an empty line."""
