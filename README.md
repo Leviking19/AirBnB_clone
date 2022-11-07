@@ -1,4 +1,3 @@
-[![Show Static Pages Demo](/image/show_static_pages_btn.png)](https://leviking19.github.io/AirBnB_clone/webstatic)
 <p align="center">
   <img src="https://github.com/bdbaraban/AirBnB_clone/blob/master/assets/hbnb_logo.png" alt="HolbertonBnB logo">
 </p>
